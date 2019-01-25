@@ -1,0 +1,44 @@
+html, body {
+    position: relative;
+    margin: 0;
+    height: 100%;
+}
+
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.left-align {
+    position: relative;
+    left: 10px;
+}
+
+.right-align {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer .llink, .footer .rlink {
+    margin: 10px;
+}
