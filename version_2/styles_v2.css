@@ -1,44 +1,54 @@
+/* Set the webpage margins and height so elements take up whole page */
 html, body {
     position: relative;
     margin: 0;
     height: 100%;
 }
 
+/* Set a height for the nav element to better align children elements */
+nav {
+    position: relative;
+    height: 42px;
+}
+/* Stretch navigation list to take up the entire nav element and remove bullets */
 nav ol {
+    position: relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
+/* Line up the list elements horizontally and adjust spacing */
 nav li {
     display: inline-block;
     margin: 10px;
 }
 
+/* Remove the underline from links and change color black */
 nav a {
     font-size: 12px;
     text-decoration: none;
     color: #000000;
 }
 
+/* Shift links to the left or right of the screen */
 .left-align {
-    position: relative;
+    position: absolute;
     left: 10px;
 }
 
 .right-align {
     position: absolute;
-    top: 0;
     right: 0;
 }
 
+/* Move the footer to the bottom of the screen */
 .footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+    background-color: #eee;
 }
 
-.footer .llink, .footer .rlink {
-    margin: 10px;
-}
+
